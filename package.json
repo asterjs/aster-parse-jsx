@@ -1,0 +1,33 @@
+{
+  "name": "aster-parse-jsx",
+  "version": "0.0.1",
+  "description": "React's JSX parser for aster.",
+  "author": "Ingvar Stepanyan <me@rreverser.com> (https://github.com/RReverser)",
+  "repository": "asterjs/aster-parse-jsx",
+  "license": "MIT",
+  "keywords": [
+    "aster-plugin",
+    "ast",
+    "react",
+    "jsx",
+    "parse",
+    "compile",
+    "transpile",
+    "javascript"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "estraverse": "^1.5.0",
+    "jsx-esprima": "^0.1.0",
+    "react-tools": "^0.10.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "escodegen": "^1.3.3",
+    "mocha": "*",
+    "rx": "^2.2.0"
+  }
+}
