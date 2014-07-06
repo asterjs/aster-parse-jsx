@@ -2,6 +2,10 @@
 
 var jsx = require('jsx-esprima');
 
+function ext2js(fileName) {
+	return fileName.replace(/(\.[^.]*)?$/, '.js');
+}
+
 module.exports = function (options) {
 	options = options || {};
 
@@ -16,7 +20,7 @@ module.exports = function (options) {
 				type: 'File',
 				program: jsx.transform(ast),
 				loc: {
-					source: file.path
+					source: ext2js(file.path)
 				}
 			};
 		});
