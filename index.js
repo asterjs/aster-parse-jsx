@@ -1,6 +1,6 @@
 'use strict';
 
-var jsx = require('jsx-esprima');
+var jsx = require('jsx-transpiler');
 
 function ext2js(fileName) {
 	return fileName.replace(/(\.[^.]*)?$/, '.js');

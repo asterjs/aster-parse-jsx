@@ -5,7 +5,7 @@
 var assert = require('chai').assert,
 	Rx = require('rx'),
 	parseJSX = require('..'),
-	compile = require('jsx-esprima').compile,
+	compile = require('jsx-transpiler').compile,
 	generate = require('aster-generate');
 
 it('test', function (done) {
