@@ -1,6 +1,6 @@
 {
   "name": "aster-parse-jsx",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "React's JSX parser for aster.",
   "author": "Ingvar Stepanyan <me@rreverser.com> (https://github.com/RReverser)",
   "repository": "asterjs/aster-parse-jsx",
